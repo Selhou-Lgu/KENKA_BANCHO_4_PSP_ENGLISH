@@ -1,0 +1,3128 @@
+{
+ "inner\\data\\album.lzs_\\album_menu.tm2": {
+  "font": "impact",
+  "labels": [
+   "Exploits",
+   "Report Card",
+   "Student List",
+   "Smack Words"
+  ],
+  "expand": true
+ },
+ "inner\\data\\album.lzs_\\album_menu_01.tm2": {
+  "font": "impact",
+  "grid": [
+   0,
+   0,
+   128,
+   32,
+   1,
+   4
+  ],
+  "labels": [
+   "Term 1",
+   "Term 2",
+   "Term 3",
+   "Memo"
+  ],
+  "fill": [
+   225,
+   20,
+   20
+  ],
+  "outline": [
+   255,
+   190,
+   190
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\album.lzs_\\list_menu.tm2": {
+  "font": "impact",
+  "labels": [
+   "1st Year",
+   "2nd Year",
+   "3rd Year"
+  ],
+  "expand": true
+ },
+ "inner\\data\\common.lzs_\\menu_words.tm2": {
+  "font": "narrow",
+  "grid": [
+   0,
+   0,
+   64,
+   16,
+   1,
+   19
+  ],
+  "labels": [
+   "Confirm",
+   "Back",
+   "Assign",
+   "Discard",
+   "Move",
+   "Enter",
+   "Rotate",
+   "Switch",
+   "Leave",
+   "Buy",
+   "Details",
+   "Crew",
+   "Delete",
+   "Zoom",
+   "Cursor",
+   "Random",
+   "Style",
+   "Hair Color",
+   "Reset Name"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\common.lzs_\\menu_words2.tm2": {
+  "font": "narrow",
+  "grid": [
+   0,
+   0,
+   64,
+   16,
+   1,
+   3
+  ],
+  "labels": [
+   "Fast Fwd",
+   "Skip",
+   "Camera"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\common.lzs_\\minmap_name.tm2": {
+  "font": "narrow",
+  "grid": [
+   0,
+   0,
+   64,
+   16,
+   1,
+   9
+  ],
+  "labels": [
+   "Hangout",
+   "Move",
+   "Shrine",
+   "Gyoza Ohsho",
+   "Hair Salon",
+   "Boutique",
+   "Shirokumart",
+   "Spa",
+   "Vending"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\common.lzs_\\pause_daiji.tm2": {
+  "font": "hatten",
+  "labels": [
+   "Status",
+   "Options",
+   "Phone",
+   "Orders",
+   "Items",
+   "Guidance"
+  ],
+  "fill": [
+   230,
+   40,
+   50
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 2,
+  "expand": true
+ },
+ "inner\\data\\edit.lzs_\\edit_menu.tm2": {
+  "font": "impact",
+  "labels": [
+   "Inner",
+   "Hairstyle",
+   "Outer",
+   "Face",
+   "Bottoms",
+   "Glasses",
+   "Shoes",
+   "Mask",
+   "Skin Art",
+   "Skin Color"
+  ],
+  "expand": true
+ },
+ "inner\\data\\item.lzs_\\item_icon.tm2": {
+  "font": "impact",
+  "boxes": [
+   [
+    0,
+    0,
+    145,
+    49
+   ],
+   [
+    17,
+    65,
+    123,
+    116
+   ]
+  ],
+  "labels": [
+   "Items",
+   "Weapons"
+  ],
+  "expand": true
+ },
+ "inner\\data\\motion_edit.lzs_\\skill_menu.tm2": {
+  "font": "impact",
+  "grid": [
+   0,
+   0,
+   128,
+   40,
+   1,
+   6
+  ],
+  "labels": [
+   "Combos",
+   "Standing",
+   "Grabs",
+   "Mount",
+   "Smack Words",
+   "Other"
+  ]
+ },
+ "inner\\data\\motion_edit.lzs_\\skill_tex.tm2": {
+  "font": "narrow",
+  "grid": [
+   0,
+   0,
+   64,
+   24,
+   1,
+   6
+  ],
+  "labels": [
+   "Combos",
+   "Standing",
+   "Grabs",
+   "Mount",
+   "Smack Words",
+   "Other"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\option.lzs_\\option_menu.tm2": {
+  "font": "impact",
+  "labels": [
+   "BGM / SE",
+   "Camera",
+   "Install"
+  ],
+  "expand": true
+ },
+ "inner\\data\\phone.lzs_\\phone_menu.tm2": {
+  "font": "impact",
+  "boxes": [
+   [
+    0,
+    0,
+    150,
+    47
+   ],
+   [
+    0,
+    48,
+    150,
+    94
+   ],
+   [
+    0,
+    95,
+    150,
+    141
+   ],
+   [
+    0,
+    142,
+    150,
+    192
+   ]
+  ],
+  "labels": [
+   "Call",
+   "Mail",
+   "Camera",
+   "Area Map"
+  ],
+  "fill": [
+   255,
+   80,
+   0
+  ],
+  "outline": [
+   255,
+   80,
+   0
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\phone.lzs_\\phone_panel00.tm2": {
+  "font": "impact",
+  "labels": [
+   "Call",
+   "Mail",
+   "Items",
+   "Weapons",
+   "Camera"
+  ],
+  "expand": true
+ },
+ "inner\\data\\sakusen.lzs_\\sakusen_panel.tm2": {
+  "font": "impact",
+  "labels": [
+   "Beat 'Em Up!!!",
+   "Leave Finish to Me!!!",
+   "Switch with Me!!!",
+   "Go Home!!!"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   0,
+   0,
+   0
+  ],
+  "stroke": 2,
+  "expand": true
+ },
+ "inner\\data\\shop02.lzs_\\shop_menu_icon01.tm2": {
+  "font": "narrow",
+  "grid": [
+   0,
+   0,
+   128,
+   32,
+   1,
+   5
+  ],
+  "labels": [
+   "Inner",
+   "Outer",
+   "Bottoms",
+   "Shoes",
+   "Accessory"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\shop04.lzs_\\shop_menu_icon04.tm2": {
+  "font": "narrow",
+  "labels": [
+   "Skin Color",
+   "Skin Art"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1,
+  "expand": true
+ },
+ "inner\\data\\status.lzs_\\status02_menu.tm2": {
+  "font": "impact",
+  "labels": [
+   "Base HP",
+   "Arm Strength",
+   "Toughness",
+   "Speed",
+   "Lung Power"
+  ],
+  "expand": true,
+  "uniform": false
+ },
+ "inner\\data\\title.lzs_\\title_panel.tm2": {
+  "font": "hatten",
+  "labels": [
+   "New Game",
+   "Easy",
+   "Solo Holiday",
+   "Continue",
+   "Normal",
+   "Buddy Holiday",
+   "Holiday",
+   "Hard",
+   "Install"
+  ],
+  "fill": [
+   230,
+   30,
+   30
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 2,
+  "expand": true
+ },
+ "inner\\data\\trump.lzs_\\tramp_butt.tm2": {
+  "font": "narrow",
+  "mode": "bg",
+  "grid": [
+   2,
+   1,
+   78,
+   16,
+   1,
+   6
+  ],
+  "labels": [
+   "Swap",
+   "Pass",
+   "Bet",
+   "Call",
+   "Raise",
+   "Drop"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\trump.lzs_\\tramp_hand.tm2": {
+  "font": "impact",
+  "grid": [
+   0,
+   0,
+   206,
+   24,
+   1,
+   11
+  ],
+  "labels": [
+   "Five of a Kind",
+   "Royal Straight Flush",
+   "Straight Flush",
+   "Four of a Kind",
+   "Full House",
+   "Flush",
+   "Straight",
+   "Three of a Kind",
+   "Two Pair",
+   "One Pair",
+   "No Pair"
+  ]
+ },
+ "inner\\data\\vehicle.lzs_\\route_name.tm2": {
+  "font": "hatten",
+  "labels": [
+   "School",
+   "My Place",
+   "Benikawa Bridge",
+   "Konan 1-chome",
+   "Benihanadai Apts",
+   "Konan 3-chome",
+   "Konan Station",
+   "By Hanayuri",
+   "Konan Shrine\nKonan 2-chome"
+  ],
+  "fill": [
+   220,
+   20,
+   20
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 2,
+  "expand": true
+ },
+ "inner\\data\\obj\\mahjong.lzs_\\mj_butt.tm2": {
+  "font": "narrow",
+  "mode": "bg",
+  "grid": [
+   0,
+   0,
+   64,
+   16,
+   1,
+   3
+  ],
+  "labels": [
+   "Back to Game",
+   "Standings",
+   "Quit Mahjong"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   40,
+   40,
+   40
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\status.lzs_\\eva_rank.tm2": {
+  "font": "impact",
+  "grid": [
+   0,
+   0,
+   100,
+   32,
+   1,
+   12
+  ],
+  "labels": [
+   "Way Too Cool!",
+   "Very Cool",
+   "Pretty Cool",
+   "Bit Cool",
+   "Average",
+   "Bit Lame",
+   "Pretty Lame",
+   "Very Lame",
+   "Way Too Lame!",
+   "Lame King!!",
+   "Lame God!!",
+   "Abnormal"
+  ],
+  "fill": [
+   235,
+   0,
+   0
+  ],
+  "outline": [
+   0,
+   0,
+   0
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\common.lzs_\\main_stomatch_01.tm2": {
+  "font": "narrow",
+  "mode": "bg",
+  "grid": [
+   1,
+   0,
+   74,
+   16,
+   1,
+   12
+  ],
+  "labels": [
+   "Spirit Cost -30%",
+   "ATK 5% UP",
+   "DEF 5% UP",
+   "STA 15% UP",
+   "Spirit Cost -50%",
+   "ATK 10% UP",
+   "DEF 10% UP",
+   "STA 30% UP",
+   "SPD 30% UP",
+   "Healing x2",
+   "ATK 20% UP",
+   "Stun -30%"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   150,
+   40,
+   0
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_00.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Sleep"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_01.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Change"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_02.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Moves"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_03.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Items"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_04.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Phone"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_05.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Options"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_06.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "My\nRecord"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_07.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Status"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_08.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Quit"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_09.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Save"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_10.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Kill\nTime"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_11.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Remodel"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\hangout.lzs_\\menu_daiji_12.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    4,
+    10,
+    190,
+    188
+   ]
+  ],
+  "labels": [
+   "Go\nOut"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\common.lzs_\\main_word.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    0,
+    318,
+    150
+   ],
+   [
+    0,
+    150,
+    318,
+    303
+   ],
+   [
+    0,
+    303,
+    318,
+    444
+   ],
+   [
+    318,
+    0,
+    510,
+    443
+   ]
+  ],
+  "labels": [
+   "LEGEND",
+   "RANK UP!!",
+   "DONE!",
+   "MAN\nRANK"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "outline2": [
+   220,
+   0,
+   0
+  ],
+  "halo": 7,
+  "uniform": false
+ },
+ "inner\\data\\common.lzs_\\main_word00.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    0,
+    127,
+    127
+   ],
+   [
+    128,
+    0,
+    255,
+    127
+   ]
+  ],
+  "labels": [
+   "TAKE",
+   "OVER!"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "outline2": [
+   220,
+   0,
+   0
+  ],
+  "halo": 6
+ },
+ "inner\\data\\arrest.lzs_\\main_arrest.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    0,
+    128,
+    128
+   ],
+   [
+    128,
+    0,
+    256,
+    128
+   ],
+   [
+    0,
+    128,
+    128,
+    256
+   ],
+   [
+    128,
+    128,
+    256,
+    256
+   ]
+  ],
+  "labels": [
+   "BUS",
+   "TED!",
+   "WARN",
+   "ING!"
+  ],
+  "fill": [
+   190,
+   15,
+   25
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "outline2": [
+   0,
+   0,
+   0
+  ],
+  "halo": 3
+ },
+ "inner\\data\\arrest.lzs_\\main_arrest_01.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    0,
+    128,
+    128
+   ],
+   [
+    128,
+    0,
+    256,
+    128
+   ],
+   [
+    0,
+    128,
+    128,
+    256
+   ],
+   [
+    128,
+    128,
+    256,
+    256
+   ]
+  ],
+  "labels": [
+   "SUS",
+   "PENDED",
+   "EXP",
+   "ELLED"
+  ],
+  "fill": [
+   30,
+   30,
+   140
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "outline2": [
+   0,
+   0,
+   0
+  ],
+  "halo": 3
+ },
+ "inner\\data\\athletic.lzs_\\ath_class.tm2": {
+  "font": "serif",
+  "boxes": [
+   [
+    86,
+    0,
+    187,
+    96
+   ],
+   [
+    86,
+    96,
+    187,
+    192
+   ],
+   [
+    86,
+    192,
+    187,
+    288
+   ],
+   [
+    86,
+    288,
+    187,
+    384
+   ],
+   [
+    86,
+    384,
+    187,
+    480
+   ]
+  ],
+  "labels": [
+   "Class",
+   "Class",
+   "Class",
+   "Class",
+   "Class"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   0,
+   0,
+   0
+  ],
+  "stroke": 3
+ },
+ "inner\\data\\athletic.lzs_\\ath_sig.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    0,
+    240,
+    96
+   ],
+   [
+    0,
+    96,
+    290,
+    224
+   ],
+   [
+    0,
+    224,
+    250,
+    352
+   ]
+  ],
+  "labels": [
+   "Ready...",
+   "GO!!",
+   "FINISH"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3,
+  "uniform": false
+ },
+ "inner\\data\\athletic.lzs_\\ath_vs.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    9,
+    1,
+    137,
+    154
+   ]
+  ],
+  "labels": [
+   "VS"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3
+ },
+ "inner\\data\\gameover.lzs_\\end_daiji00.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    9,
+    267,
+    245
+   ]
+  ],
+  "labels": [
+   "FIN"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 4
+ },
+ "inner\\data\\status.lzs_\\status02_rest.tm2": {
+  "font": "hatten",
+  "boxes": [
+   [
+    0,
+    3,
+    175,
+    121
+   ]
+  ],
+  "labels": [
+   "Souls\nLeft"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 3
+ },
+ "inner\\data\\myroom.lzs_\\month_02.tm2": {
+  "font": "impact",
+  "boxes": [
+   [
+    4,
+    1,
+    213,
+    156
+   ]
+  ],
+  "labels": [
+   "DAY OFF"
+  ],
+  "fill": [
+   170,
+   110,
+   110
+  ],
+  "outline": [
+   90,
+   50,
+   50
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\common.lzs_\\menu_tanka_huki00.tm2": {
+  "font": "impact",
+  "boxes": [
+   [
+    1,
+    3,
+    404,
+    94
+   ]
+  ],
+  "labels": [
+   "Press the button & talk smack!"
+  ],
+  "fill": [
+   220,
+   20,
+   20
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\album.lzs_\\listedit_abs.tm2": {
+  "font": "impact",
+  "mode": "bg",
+  "boxes": [
+   [
+    40,
+    22,
+    150,
+    58
+   ]
+  ],
+  "labels": [
+   "IN HOSPITAL"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\album.lzs_\\album_per.tm2": {
+  "font": "narrow",
+  "boxes": [
+   [
+    0,
+    3,
+    57,
+    25
+   ]
+  ],
+  "labels": [
+   "Complete"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   0,
+   0,
+   0
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\motion_edit.lzs_\\skill_waza.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    116,
+    3,
+    152,
+    21
+   ]
+  ],
+  "labels": [
+   "Power"
+  ],
+  "fill": [
+   0,
+   0,
+   0
+  ],
+  "outline": [
+   0,
+   0,
+   0
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\vehicle.lzs_\\route_time.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    370,
+    1,
+    428,
+    16
+   ],
+   [
+    452,
+    1,
+    472,
+    16
+   ]
+  ],
+  "labels": [
+   "Travel",
+   "min"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 0,
+  "uniform": false
+ },
+ "inner\\data\\goodslist.lzs_\\goods_com.tm2": {
+  "font": "impact",
+  "mode": "interp",
+  "boxes": [
+   [
+    8,
+    12,
+    82,
+    52
+   ]
+  ],
+  "labels": [
+   "Comfort"
+  ],
+  "fill": [
+   220,
+   255,
+   250
+  ],
+  "outline": [
+   0,
+   150,
+   140
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\pause_item.lzs_\\item00_hpwin.tm2": {
+  "font": "impact",
+  "mode": "interp",
+  "boxes": [
+   [
+    6,
+    6,
+    48,
+    30
+   ],
+   [
+    6,
+    36,
+    48,
+    60
+   ]
+  ],
+  "labels": [
+   "HP",
+   "Spirit"
+  ],
+  "fill": [
+   255,
+   240,
+   240
+  ],
+  "outline": [
+   200,
+   0,
+   0
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\common.lzs_\\asahi_money.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    9,
+    3,
+    48,
+    29
+   ]
+  ],
+  "labels": [
+   "Cash"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\common.lzs_\\asahi_tag.tm2": {
+  "font": "narrow",
+  "mode": "bg",
+  "boxes": [
+   [
+    2,
+    18,
+    78,
+    31
+   ],
+   [
+    82,
+    18,
+    158,
+    31
+   ]
+  ],
+  "labels": [
+   "Ice Cold",
+   "Ice Cold"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   255,
+   255,
+   255
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\item.lzs_\\shop_menu_money.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    9,
+    6,
+    48,
+    30
+   ],
+   [
+    9,
+    57,
+    58,
+    82
+   ],
+   [
+    9,
+    112,
+    48,
+    134
+   ],
+   [
+    9,
+    136,
+    48,
+    158
+   ]
+  ],
+  "labels": [
+   "Cash",
+   "Pocket",
+   "HP",
+   "Spirit"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\sakusen.lzs_\\status_00.tm2": {
+  "font": "narrow",
+  "mode": "mask",
+  "boxes": [
+   [
+    164,
+    4,
+    214,
+    26
+   ],
+   [
+    164,
+    68,
+    214,
+    90
+   ],
+   [
+    164,
+    132,
+    228,
+    154
+   ]
+  ],
+  "labels": [
+   "HP",
+   "Spirit",
+   "Man Rank"
+  ],
+  "fill": [
+   225,
+   225,
+   225
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1,
+  "clear": [
+   0,
+   0,
+   0,
+   178
+  ]
+ },
+ "inner\\data\\status.lzs_\\status_03.tm2": {
+  "font": "narrow",
+  "mode": "mask",
+  "boxes": [
+   [
+    2,
+    7,
+    97,
+    31
+   ],
+   [
+    102,
+    7,
+    198,
+    31
+   ],
+   [
+    2,
+    71,
+    97,
+    95
+   ],
+   [
+    102,
+    71,
+    198,
+    95
+   ],
+   [
+    176,
+    111,
+    197,
+    131
+   ],
+   [
+    1,
+    134,
+    198,
+    160
+   ]
+  ],
+  "labels": [
+   "Fight Exp.",
+   "Souls",
+   "Play Time",
+   "Defeated",
+   "ppl",
+   "To next Man Rank"
+  ],
+  "fill": [
+   225,
+   225,
+   225
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1,
+  "uniform": false,
+  "clear": [
+   0,
+   0,
+   0,
+   178
+  ]
+ },
+ "inner\\data\\status.lzs_\\status_01.tm2": {
+  "font": "narrow",
+  "mode": "mask",
+  "boxes": [
+   [
+    64,
+    8,
+    132,
+    40
+   ],
+   [
+    142,
+    40,
+    198,
+    86
+   ],
+   [
+    3,
+    42,
+    50,
+    90
+   ],
+   [
+    6,
+    150,
+    60,
+    197
+   ],
+   [
+    136,
+    150,
+    197,
+    197
+   ]
+  ],
+  "labels": [
+   "Base\nHP",
+   "Tough-\nness",
+   "Arm\nPower",
+   "Lung\nPower",
+   "Speed"
+  ],
+  "fill": [
+   230,
+   230,
+   230
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1,
+  "uniform": false,
+  "clear": [
+   0,
+   0,
+   0,
+   178
+  ],
+  "lum_min": 95
+ },
+ "inner\\data\\status.lzs_\\status_02.tm2": {
+  "font": "impact",
+  "mode": "interp",
+  "boxes": [
+   [
+    20,
+    5,
+    190,
+    40
+   ]
+  ],
+  "labels": [
+   "Cool / Lame"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   40,
+   40,
+   40
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\name.lzs_\\name_area.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    12,
+    1,
+    48,
+    17
+   ],
+   [
+    12,
+    57,
+    48,
+    73
+   ],
+   [
+    2,
+    111,
+    86,
+    127
+   ]
+  ],
+  "labels": [
+   "Name",
+   "Surname",
+   "School"
+  ],
+  "fill": [
+   255,
+   110,
+   0
+  ],
+  "outline": [
+   255,
+   110,
+   0
+  ],
+  "stroke": 0,
+  "uniform": false
+ },
+ "inner\\data\\name.lzs_\\name_bg.tm2": {
+  "font": "serif",
+  "mode": "bg",
+  "boxes": [
+   [
+    176,
+    20,
+    304,
+    46
+   ],
+   [
+    236,
+    60,
+    304,
+    82
+   ],
+   [
+    230,
+    110,
+    262,
+    132
+   ],
+   [
+    316,
+    110,
+    348,
+    132
+   ]
+  ],
+  "labels": [
+   "Student ID",
+   "School",
+   "Surname",
+   "Name"
+  ],
+  "fill": [
+   80,
+   80,
+   80
+  ],
+  "outline": [
+   80,
+   80,
+   80
+  ],
+  "stroke": 0,
+  "uniform": false
+ },
+ "inner\\data\\album.lzs_\\listedit_bg.tm2": {
+  "font": "serif",
+  "mode": "bg",
+  "boxes": [
+   [
+    206,
+    82,
+    246,
+    102
+   ],
+   [
+    292,
+    82,
+    326,
+    102
+   ]
+  ],
+  "labels": [
+   "Surname",
+   "Name"
+  ],
+  "fill": [
+   70,
+   70,
+   70
+  ],
+  "outline": [
+   70,
+   70,
+   70
+  ],
+  "stroke": 0
+ },
+ "inner\\data\\common.lzs_\\menu_main_in.tm2": {
+  "font": "narrow",
+  "keep": [
+   0
+  ],
+  "labels": [
+   "Enter",
+   "Move"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\icon.lzs_\\b_help.tm2": {
+  "font": "narrow",
+  "keep": [
+   0
+  ],
+  "labels": [
+   "Cancel"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   30,
+   30,
+   30
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\name.lzs_\\name_icon.tm2": {
+  "font": "narrow",
+  "mode": "bg",
+  "boxes": [
+   [
+    5,
+    6,
+    41,
+    42
+   ],
+   [
+    5,
+    54,
+    41,
+    90
+   ],
+   [
+    5,
+    102,
+    41,
+    138
+   ],
+   [
+    5,
+    150,
+    41,
+    186
+   ]
+  ],
+  "labels": [
+   "Kana\nKanji",
+   "ABC\n123",
+   "Sym-\nbols",
+   "OK"
+  ],
+  "fill": [
+   255,
+   90,
+   0
+  ],
+  "outline": [
+   255,
+   90,
+   0
+  ],
+  "stroke": 0,
+  "uniform": false
+ },
+ "inner\\data\\name.lzs_\\name_decision.tm2": {
+  "font": "impact",
+  "mode": "bg",
+  "boxes": [
+   [
+    4,
+    4,
+    78,
+    38
+   ]
+  ],
+  "labels": [
+   "OK"
+  ],
+  "fill": [
+   40,
+   0,
+   0
+  ],
+  "outline": [
+   255,
+   170,
+   160
+  ],
+  "stroke": 1
+ },
+ "inner\\data\\motion_edit.lzs_\\skill_power.tm2": {
+  "font": "impact",
+  "boxes": [
+   [
+    0,
+    0,
+    55,
+    39
+   ]
+  ],
+  "labels": [
+   "Power"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   230,
+   140,
+   0
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\common.lzs_\\pause_menu_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Pause Menu"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\album.lzs_\\album_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ],
+   [
+    4,
+    59,
+    236,
+    93
+   ],
+   [
+    4,
+    107,
+    236,
+    141
+   ]
+  ],
+  "labels": [
+   "My Record",
+   "Exploits",
+   "Report Card"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\status.lzs_\\status_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ],
+   [
+    4,
+    59,
+    236,
+    93
+   ]
+  ],
+  "labels": [
+   "Status",
+   "Assign Souls"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\album.lzs_\\list_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Student List"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\item.lzs_\\pause_item_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ],
+   [
+    4,
+    59,
+    236,
+    93
+   ],
+   [
+    4,
+    107,
+    236,
+    141
+   ]
+  ],
+  "labels": [
+   "Inventory",
+   "Items",
+   "Weapons"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\common.lzs_\\minmap_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Area Map"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\edit.lzs_\\edit_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Change Clothes"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\goodslist.lzs_\\goods_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Remodel"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\hangout.lzs_\\base_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Hangout"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\hangout.lzs_\\menu_frame_01.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "My Room"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\motion_edit.lzs_\\skill_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Move Setup"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\name.lzs_\\name_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Student ID"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\netplay.lzs_\\net_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Meet Up"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\option.lzs_\\option_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Options"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\phone.lzs_\\phone_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Phone"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\sakusen.lzs_\\sakusen_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Choose Tactic"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\tango.lzs_\\tango_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Smack Words"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\vehicle.lzs_\\route_frame.tm2": {
+  "font": "serif",
+  "mode": "interp",
+  "boxes": [
+   [
+    4,
+    11,
+    236,
+    45
+   ]
+  ],
+  "labels": [
+   "Map"
+  ],
+  "fill": [
+   255,
+   255,
+   255
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 2
+ },
+ "inner\\data\\album.lzs_\\repo_bg00.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    30,
+    21,
+    199,
+    37
+   ],
+   [
+    30,
+    45,
+    199,
+    61
+   ],
+   [
+    30,
+    62,
+    199,
+    78
+   ],
+   [
+    30,
+    80,
+    199,
+    96
+   ],
+   [
+    30,
+    97,
+    199,
+    113
+   ],
+   [
+    30,
+    114,
+    199,
+    130
+   ],
+   [
+    30,
+    132,
+    199,
+    148
+   ],
+   [
+    30,
+    151,
+    199,
+    167
+   ],
+   [
+    30,
+    169,
+    199,
+    185
+   ],
+   [
+    30,
+    188,
+    199,
+    204
+   ],
+   [
+    396,
+    45,
+    417,
+    61
+   ],
+   [
+    396,
+    62,
+    417,
+    78
+   ],
+   [
+    368,
+    132,
+    417,
+    148
+   ],
+   [
+    374,
+    151,
+    417,
+    167
+   ],
+   [
+    396,
+    169,
+    417,
+    185
+   ],
+   [
+    396,
+    188,
+    417,
+    204
+   ]
+  ],
+  "labels": [
+   "Completion",
+   "Badges Won",
+   "Clothes Owned",
+   "Moves Learned",
+   "Smack Words",
+   "Weapons Found",
+   "Holiday Bosses Met",
+   "Hangouts",
+   "Items Brought",
+   "People Beaten",
+   "pcs",
+   "pcs",
+   "pref.",
+   "spots",
+   "kinds",
+   "ppl"
+  ],
+  "fill": [
+   20,
+   20,
+   20
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 0,
+  "uniform": false
+ },
+ "inner\\data\\album.lzs_\\repo_bg01.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    10,
+    5,
+    140,
+    28
+   ],
+   [
+    20,
+    47,
+    74,
+    65
+   ],
+   [
+    20,
+    67,
+    74,
+    85
+   ],
+   [
+    20,
+    87,
+    74,
+    105
+   ],
+   [
+    20,
+    107,
+    74,
+    125
+   ],
+   [
+    20,
+    127,
+    74,
+    145
+   ],
+   [
+    20,
+    147,
+    74,
+    165
+   ],
+   [
+    226,
+    47,
+    276,
+    65
+   ],
+   [
+    226,
+    67,
+    276,
+    85
+   ],
+   [
+    226,
+    87,
+    276,
+    105
+   ],
+   [
+    226,
+    107,
+    276,
+    125
+   ],
+   [
+    226,
+    127,
+    276,
+    145
+   ],
+   [
+    226,
+    147,
+    276,
+    165
+   ]
+  ],
+  "labels": [
+   "Event Completion",
+   "Apr",
+   "May",
+   "Jun",
+   "Jul",
+   "Aug",
+   "Sep",
+   "Oct",
+   "Nov",
+   "Dec",
+   "Jan",
+   "Feb",
+   "Mar"
+  ],
+  "fill": [
+   20,
+   20,
+   20
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 0,
+  "uniform": false,
+  "fill_first": [
+   255,
+   255,
+   255
+  ]
+ },
+ "inner\\data\\album.lzs_\\repo_bg02.tm2": {
+  "font": "narrow",
+  "mode": "interp",
+  "boxes": [
+   [
+    60,
+    9,
+    199,
+    25
+   ],
+   [
+    60,
+    29,
+    199,
+    45
+   ],
+   [
+    60,
+    68,
+    199,
+    84
+   ],
+   [
+    60,
+    89,
+    199,
+    105
+   ],
+   [
+    60,
+    109,
+    199,
+    125
+   ],
+   [
+    60,
+    128,
+    199,
+    144
+   ],
+   [
+    60,
+    148,
+    199,
+    164
+   ],
+   [
+    60,
+    168,
+    199,
+    184
+   ],
+   [
+    396,
+    9,
+    417,
+    25
+   ],
+   [
+    310,
+    29,
+    332,
+    45
+   ],
+   [
+    398,
+    29,
+    417,
+    45
+   ],
+   [
+    372,
+    68,
+    417,
+    84
+   ],
+   [
+    372,
+    89,
+    417,
+    105
+   ],
+   [
+    372,
+    109,
+    417,
+    125
+   ],
+   [
+    372,
+    128,
+    417,
+    144
+   ],
+   [
+    310,
+    148,
+    332,
+    164
+   ],
+   [
+    398,
+    148,
+    417,
+    164
+   ],
+   [
+    396,
+    168,
+    417,
+    184
+   ]
+  ],
+  "labels": [
+   "Shooting Gallery Pts",
+   "Event Time",
+   "One-Day War",
+   "Fight Club",
+   "Fight Club: Max",
+   "Fight Club: Duo",
+   "Poker Record",
+   "Mahjong Record",
+   "pts",
+   "m",
+   "s",
+   "wins",
+   "wins",
+   "wins",
+   "wins",
+   "W",
+   "L",
+   "pts"
+  ],
+  "fill": [
+   20,
+   20,
+   20
+  ],
+  "outline": [
+   20,
+   20,
+   20
+  ],
+  "stroke": 0,
+  "uniform": false
+ },
+ "inner\\data\\obj\\mahjong.lzs_\\mj_disp.tm2": {
+  "font": "impact",
+  "boxes": [
+   [
+    416,
+    270,
+    500,
+    309
+   ],
+   [
+    416,
+    309,
+    500,
+    347
+   ],
+   [
+    416,
+    347,
+    500,
+    385
+   ],
+   [
+    416,
+    385,
+    500,
+    422
+   ],
+   [
+    0,
+    434,
+    48,
+    449
+   ],
+   [
+    48,
+    434,
+    80,
+    449
+   ],
+   [
+    80,
+    434,
+    112,
+    449
+   ],
+   [
+    112,
+    434,
+    144,
+    449
+   ],
+   [
+    0,
+    450,
+    192,
+    468
+   ],
+   [
+    192,
+    450,
+    240,
+    468
+   ],
+   [
+    0,
+    470,
+    64,
+    490
+   ]
+  ],
+  "labels": [
+   "1st",
+   "2nd",
+   "3rd",
+   "4th",
+   "You",
+   "Opp.",
+   "Left",
+   "Right",
+   "Continue the match?",
+   "Yes",
+   "No"
+  ],
+  "stroke": 1,
+  "uniform": false
+ },
+ "inner\\data\\common.lzs_\\main_dope_00.tm2": {
+  "font": "narrow",
+  "boxes": [
+   [
+    0,
+    0,
+    15,
+    16
+   ],
+   [
+    0,
+    16,
+    15,
+    32
+   ],
+   [
+    0,
+    32,
+    15,
+    48
+   ],
+   [
+    0,
+    48,
+    15,
+    64
+   ]
+  ],
+  "labels": [
+   "AT",
+   "DF",
+   "ST",
+   "ST"
+  ],
+  "stroke": 0,
+  "uniform": false
+ }
+}

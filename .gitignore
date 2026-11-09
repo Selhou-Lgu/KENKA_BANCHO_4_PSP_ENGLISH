@@ -1,0 +1,22 @@
+# never commit game data
+*.iso
+*.cso
+*.BIN
+*.bin
+*.pac
+*.lzs
+*.tm2
+*.at3
+*.pmf
+*.xlsx
+extracted/
+unpacked/
+inner/
+eboot/
+build/
+font/
+tex/preview/
+tex/*.png
+# patch files go in GitHub Releases, not the repo (too big)
+*.xdelta
+__pycache__/
