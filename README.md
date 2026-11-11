@@ -25,20 +25,29 @@ This repo has **no game files**: no ISO, no game data. You need your own copy of
    - **CRC32:** `932A69E3`
    - **MD5:** `abdf6c3f1e129dfc471f8940c724afeb`
    - **SHA-1:** `6c9740416f5d693602b89be86b0572fc45de2704`
-2. Download `KenkaBanchou4_English.xdelta` from the **[Releases](../../releases)** page.
+2. Download the latest `KenkaBanchou4_English_v1.1.xdelta` from the **[Releases](../../releases)** page.
 3. Apply it with one of these:
    - **Windows (easy):** [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher). Pick the original ISO, pick the `.xdelta` file, press Apply.
    - **Command line:**
      ```
-     xdelta3 -d -s "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia).iso" KenkaBanchou4_English.xdelta "Kenka Banchou 4 (English).iso"
+     xdelta3 -d -s "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia).iso" KenkaBanchou4_English_v1.1.xdelta "Kenka Banchou 4 (English).iso"
      ```
-   The patched ISO's SHA-1 should be `d4d3006090dd639c625ca9c17a4d35af94bf4b78`.
+   The patched ISO's SHA-1 should be `adf7447c79360866d02e42acc9c60fccac33c3ee`.
 4. Play the new ISO in **PPSSPP** (tested there) or on a PSP with custom firmware.
 
 ## Important
 
 - **Don't use the in-game "media install" option.** The install data is the original Japanese copy, so the game would load Japanese text from it. If you already installed, turn install data **OFF** in Options, or delete it.
 - The patched ISO is bigger (~1.25 GB) than the original. That's normal.
+
+## Changelog
+
+- **v1.1**
+  - **Fixed:** the game could get stuck at choice prompts (e.g. Dankichi's manliness explanation looping forever) because both options ended up on one line. All 64 choice prompts are fixed. **Update if you're on v1.0.**
+  - Cleaner English letters (Tahoma Bold instead of Consolas).
+- **v1.0:** first release.
+
+You have to apply the patch to the **original Japanese ISO**, not to a v1.0-patched ISO.
 
 ## Known issues / please report
 

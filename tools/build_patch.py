@@ -32,8 +32,21 @@ def vlen(s):
 
 def wrap(text, width, reflow):
     """Word-wrap to `width` visible chars; tags count as zero width.
-    reflow=True joins the translator's own breaks first (dialogue)."""
-    paras = [text.replace("\n", " ")] if reflow else text.split("\n")
+    reflow=True joins the translator's own breaks first (dialogue).
+
+    Structure is never touched: choice prompts ({F0} ... one option per line) are
+    returned as-is, and a line that starts with a control tag stays its own line."""
+    if "{F0}" in text:
+        return text  # each line is a separate menu option; re-wrapping breaks choices
+    if reflow:
+        paras = []
+        for ln in text.split("\n"):
+            if paras and not ln.startswith("{"):
+                paras[-1] += " " + ln
+            else:
+                paras.append(ln)
+    else:
+        paras = text.split("\n")
     out = []
     for p in paras:
         line = ""

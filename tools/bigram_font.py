@@ -9,9 +9,9 @@ import kb4text, mes_dump, lzss, font_tool, halfwidth, eboot_strings
 
 FONT_REGION = (0x2F7610, 0x34EB10)   # file range holding the 4 compressed fonts
 FONT_PTRS = [0x2DD2C8, 0x2DD2D0, 0x2DD2D8, 0x2DD2E0]  # (ptr, name_ptr) entries
-TTF = "C:/Windows/Fonts/consolab.ttf"
+TTF = "C:/Windows/Fonts/tahomabd.ttf"
 TTF_FALLBACK = "C:/Windows/Fonts/seguisym.ttf"
-TTF_SIZE = 13
+TTF_SIZE = 12
 
 TAG = re.compile(r"(\{[^{}]*\})")
 HALF_SUBST = {"…": "...", "’": "'", "”": '"', "“": '"', "‘": "'",
