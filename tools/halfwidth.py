@@ -4,6 +4,17 @@ from PIL import Image, ImageDraw, ImageFont
 SS = 4  # supersampling
 
 
+def render_char_crisp(ch, font_path, size, base_y=12):
+    """Pixel-sharp glyph: no anti-aliasing, only solid ink (3) or empty (0)."""
+    im = Image.new("L", (8, 16), 0)
+    d = ImageDraw.Draw(im)
+    d.fontmode = "1"
+    f = ImageFont.truetype(font_path, size)
+    w = f.getlength(ch)
+    d.text(((8 - w) / 2, base_y), ch, fill=255, font=f, anchor="ls")
+    return [[3 if im.getpixel((x, y)) > 127 else 0 for x in range(8)] for y in range(16)]
+
+
 def render_char(ch, font_path, size, base_y=12, x_off=0, bold=0):
     W, H = 8 * SS, 16 * SS
     im = Image.new("L", (W, H), 0)

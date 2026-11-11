@@ -11,7 +11,8 @@ FONT_REGION = (0x2F7610, 0x34EB10)   # file range holding the 4 compressed fonts
 FONT_PTRS = [0x2DD2C8, 0x2DD2D0, 0x2DD2D8, 0x2DD2E0]  # (ptr, name_ptr) entries
 TTF = "C:/Windows/Fonts/tahomabd.ttf"
 TTF_FALLBACK = "C:/Windows/Fonts/seguisym.ttf"
-TTF_SIZE = 12
+TTF_SIZE = 11
+CRISP = True  # pixel-sharp letters (no grey anti-aliasing blur)
 
 TAG = re.compile(r"(\{[^{}]*\})")
 HALF_SUBST = {"…": "...", "’": "'", "”": '"', "“": '"', "‘": "'",
@@ -137,7 +138,8 @@ def _glyph(ch, cache={}):
         from PIL import ImageFont
         f = ImageFont.truetype(TTF, TTF_SIZE)
         path = TTF if (ch == " " or f.getmask(ch).getbbox()) else TTF_FALLBACK
-        cache[ch] = halfwidth.render_char(ch, path, TTF_SIZE) if ch != " " else [[0] * 8 for _ in range(16)]
+        rend = halfwidth.render_char_crisp if CRISP else halfwidth.render_char
+        cache[ch] = rend(ch, path, TTF_SIZE) if ch != " " else [[0] * 8 for _ in range(16)]
     return cache[ch]
 
 

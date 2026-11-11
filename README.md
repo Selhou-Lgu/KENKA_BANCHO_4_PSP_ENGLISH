@@ -25,14 +25,14 @@ This repo has **no game files**: no ISO, no game data. You need your own copy of
    - **CRC32:** `932A69E3`
    - **MD5:** `abdf6c3f1e129dfc471f8940c724afeb`
    - **SHA-1:** `6c9740416f5d693602b89be86b0572fc45de2704`
-2. Download the latest `KenkaBanchou4_English_v1.1.xdelta` from the **[Releases](../../releases)** page.
+2. Download the latest `KenkaBanchou4_English_v1.2.xdelta` from the **[Releases](../../releases)** page.
 3. Apply it with one of these:
    - **Windows (easy):** [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher). Pick the original ISO, pick the `.xdelta` file, press Apply.
    - **Command line:**
      ```
-     xdelta3 -d -s "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia).iso" KenkaBanchou4_English_v1.1.xdelta "Kenka Banchou 4 (English).iso"
+     xdelta3 -d -s "Kenka Banchou 4 - Ichinen Sensou (Japan, Asia).iso" KenkaBanchou4_English_v1.2.xdelta "Kenka Banchou 4 (English).iso"
      ```
-   The patched ISO's SHA-1 should be `adf7447c79360866d02e42acc9c60fccac33c3ee`.
+   The patched ISO's SHA-1 should be `a49152e07162275fa1fb503d2616e6b343d51666`.
 4. Play the new ISO in **PPSSPP** (tested there) or on a PSP with custom firmware.
 
 ## Important
@@ -42,12 +42,15 @@ This repo has **no game files**: no ISO, no game data. You need your own copy of
 
 ## Changelog
 
+- **v1.2**
+  - Sharper, cleaner English letters: pixel-crisp Tahoma Bold with no blurry anti-aliasing.
+  - Tip: in PPSSPP set *Texture filtering* and *Screen scaling filter* to **Nearest** for the sharpest text.
 - **v1.1**
   - **Fixed:** the game could get stuck at choice prompts (e.g. Dankichi's manliness explanation looping forever) because both options ended up on one line. All 64 choice prompts are fixed. **Update if you're on v1.0.**
   - Cleaner English letters (Tahoma Bold instead of Consolas).
 - **v1.0:** first release.
 
-You have to apply the patch to the **original Japanese ISO**, not to a v1.0-patched ISO.
+You have to apply the patch to the **original Japanese ISO**, not to an already-patched ISO.
 
 ## Known issues / please report
 
